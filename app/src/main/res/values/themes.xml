@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Zsklad" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/secondary</item>
+        <item name="android:windowBackground">@color/white</item>
+        
+        <!-- Text input styles -->
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+        
+        <!-- Button styles -->
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+    </style>
+
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="Theme.Zsklad" parent="Base.Theme.Zsklad" />
+</resources>

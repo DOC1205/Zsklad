@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Склад</string>
+    
+    <!-- Authentication -->
+    <string name="hint_email">Электронная почта</string>
+    <string name="hint_password">Пароль</string>
+    <string name="btn_login">Войти</string>
+    <string name="btn_register">Зарегистрироваться</string>
+    <string name="btn_forgot_password">Забыли пароль?</string>
+    <string name="hint_confirm_password">Подтвердите пароль</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_products">Товары</string>
+    <string name="nav_profile">Профиль</string>
+    
+    <!-- Products -->
+    <string name="product_name">Название товара</string>
+    <string name="product_quantity">Количество</string>
+    <string name="product_category">Категория</string>
+    <string name="product_price">Цена</string>
+    <string name="btn_add_product">Добавить товар</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_delete">Удалить</string>
+    <string name="btn_edit">Редактировать</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_delete_title">Подтверждение удаления</string>
+    <string name="dialog_delete_message">Вы уверены, что хотите удалить этот товар?</string>
+    <string name="dialog_yes">Да</string>
+    <string name="dialog_no">Нет</string>
+    <string name="dialog_add_title">Добавить товар</string>
+    <string name="dialog_edit_title">Редактировать товар</string>
+    <string name="dialog_save">Сохранить</string>
+    <string name="dialog_cancel">Отмена</string>
+    
+    <!-- Errors -->
+    <string name="error_invalid_email">Неверный формат email</string>
+    <string name="error_invalid_password">Пароль должен содержать минимум 6 символов</string>
+    <string name="error_field_required">Это поле обязательно</string>
+    <string name="btn_logout">Выйти</string>
+    <string name="error_invalid_quantity">Введите корректное количество</string>
+    <string name="error_invalid_price">Введите корректную цену</string>
+    <string name="error_passwords_not_match">Пароли не совпадают</string>
+    <string name="error_auth_failed">Ошибка авторизации</string>
+    <string name="error_registration_failed">Ошибка регистрации</string>
+    <string name="error_loading_data">Ошибка загрузки данных</string>
+    
+    <!-- Home Screen -->
+    <string name="total_products">Всего товаров</string>
+    <string name="total_value">Общая стоимость</string>
+    <string name="categories">Категории</string>
+    <string name="low_stock">Заканчивающиеся товары</string>
+    <string name="items_in_category">%d товаров</string>
+    <string name="low_stock_warning">Осталось: %d</string>
+    
+    <!-- Add this to strings.xml -->
+    <string name="currency_format">%.2f ₸</string>
+    
+    <!-- Profile -->
+    <string name="company_info">Информация о компании</string>
+    <string name="company_name">Название компании</string>
+    <string name="company_bin">БИН</string>
+    <string name="company_address">Адрес</string>
+    <string name="company_phone">Телефон</string>
+    <string name="company_email">Email компании</string>
+    <string name="profile_saved">Профиль сохранен</string>
+</resources>

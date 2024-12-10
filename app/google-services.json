@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "98761614839",
+    "firebase_url": "https://skladuchet-17c5a-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "skladuchet-17c5a",
+    "storage_bucket": "skladuchet-17c5a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98761614839:android:9eae428de7e57255befaf2",
+        "android_client_info": {
+          "package_name": "com.example.zsklad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGlzhJy5QlypkCgCRzDxXxnK1wjTVkRDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
